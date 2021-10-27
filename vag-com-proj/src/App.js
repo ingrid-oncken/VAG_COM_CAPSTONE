@@ -1,12 +1,12 @@
-import logo from './logo.svg'
+import MainNavBar from './Components/MainNavBar'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
 function App() {
   return (
-    <div className="App App-header">
+    <div>
       
-      
+      <MainNavBar />
     </div>
   )
 }
