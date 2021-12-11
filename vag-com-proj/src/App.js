@@ -1,5 +1,6 @@
 import MainNavBar from './Components/MainNavBar'
 import MainJumbo from './Components/MainJumbo'
+import MainCarousel from './Components/MainCarousel'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
@@ -9,6 +10,7 @@ function App() {
       <div>
         <MainNavBar />
         <MainJumbo />
+        <MainCarousel />
       </div>
     </>
   )

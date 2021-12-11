@@ -17,7 +17,7 @@ class MainNavBar extends Component {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="ml-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#link">Funções</Nav.Link>
               <Nav.Link href="#link">Simulador Virtual</Nav.Link>
