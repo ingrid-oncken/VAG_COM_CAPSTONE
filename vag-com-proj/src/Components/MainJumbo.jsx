@@ -5,10 +5,7 @@ class MainJumbo extends Component {
   render() {
     return (
       <Card className="text-dark">
-        <Card.Img
-          src="http://www.vag-com-portugues.com/R8.jpg"
-          alt="car image"
-        />
+        <Card.Img src="../img/placeholders/1920x700.jpg" alt="car image" />
         <Card.ImgOverlay>
           <Container>
             <Card.Title>VAG-COM DIAGNOSTIC SYSTEM</Card.Title>

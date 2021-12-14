@@ -11,20 +11,20 @@ class MainCarousel extends Component {
               <Col xs={6} md={4}>
                 <Image
                   className="d-block w-100"
-                  src="https://shop.strato.de/WebRoot/Store19/Shops/64059577/5165/F295/12B0/CA06/ACBE/C0A8/28BC/AED7/20161005_204718_watermarked_vag-com-espanol_m_www.watermark.ws.jpg/171x180"
+                  src="../img/placeholders/370x420_prod_1.jpg"
                   rounded
                 />
               </Col>
               <Col xs={6} md={4}>
                 <Image
-                  src="https://shop.strato.de/WebRoot/Store19/Shops/64059577/5887/E706/2B7E/0E12/2C87/C0A8/2ABB/C1FB/HV2-big.jpg"
+                  src="../img/placeholders/370x420_prod_2.jpg"
                   rounded
                   className="d-block w-100"
                 />
               </Col>
               <Col xs={6} md={4}>
                 <Image
-                  src="https://shop.strato.de/WebRoot/Store19/Shops/64059577/5887/F56A/DF0C/B633/F857/C0A8/2ABB/CA70/HV2-big.jpg"
+                  src="../img/placeholders/370x420_prod_3.jpg"
                   rounded
                   className="d-block w-100"
                 />
@@ -35,21 +35,21 @@ class MainCarousel extends Component {
             <Row>
               <Col xs={6} md={4}>
                 <Image
-                  src="https://shop.strato.de/WebRoot/Store19/Shops/64059577/5165/F295/12B0/CA06/ACBE/C0A8/28BC/AED7/20161005_204718_watermarked_vag-com-espanol_m_www.watermark.ws.jpg"
+                  src="../img/placeholders/370x420_prod_4.jpg"
                   rounded
                   className="d-block w-100"
                 />
               </Col>
               <Col xs={6} md={4}>
                 <Image
-                  src="https://shop.strato.de/WebRoot/Store19/Shops/64059577/5887/E706/2B7E/0E12/2C87/C0A8/2ABB/C1FB/HV2-big.jpg/171x180"
+                  src="../img/placeholders/370x420_prod_5.jpg"
                   rounded
                   className="d-block w-100"
                 />
               </Col>
               <Col xs={6} md={4}>
                 <Image
-                  src="https://shop.strato.de/WebRoot/Store19/Shops/64059577/5887/F56A/DF0C/B633/F857/C0A8/2ABB/CA70/HV2-big.jpg/171x180"
+                  src="../img/placeholders/370x420_prod_6.jpg"
                   rounded
                   className="d-block w-100"
                 />
@@ -60,26 +60,23 @@ class MainCarousel extends Component {
             <Row>
               <Col xs={6} md={4}>
                 <Image
-                  src="https://shop.strato.de/WebRoot/Store19/Shops/64059577/5165/F295/12B0/CA06/ACBE/C0A8/28BC/AED7/20161005_204718_watermarked_vag-com-espanol_m_www.watermark.ws.jpg/171x180"
+                  src="../img/placeholders/370x420_prod_7.jpg"
                   rounded
                   className="d-block w-100"
-                  height="100px"
                 />
               </Col>
               <Col xs={6} md={4}>
                 <Image
-                  src="https://shop.strato.de/WebRoot/Store19/Shops/64059577/5887/E706/2B7E/0E12/2C87/C0A8/2ABB/C1FB/HV2-big.jpg/171x180"
+                  src="../img/placeholders/370x420_prod_8.jpg"
                   rounded
                   className="d-block w-100"
-                  height="100px"
                 />
               </Col>
               <Col xs={6} md={4}>
                 <Image
-                  src="https://shop.strato.de/WebRoot/Store19/Shops/64059577/5887/F56A/DF0C/B633/F857/C0A8/2ABB/CA70/HV2-big.jpg/171x180"
+                  src="../img/placeholders/370x420_prod_9.jpg"
                   rounded
                   className="d-block w-100"
-                  height="100px"
                 />
               </Col>
             </Row>
