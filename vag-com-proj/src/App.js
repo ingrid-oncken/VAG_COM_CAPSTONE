@@ -4,6 +4,7 @@ import MainCarousel from './Components/MainCarousel'
 import HomeFAQ from './Components/HomeFAQ'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
+import { Container } from 'react-bootstrap'
 
 function App() {
   return (
@@ -11,8 +12,10 @@ function App() {
       <div>
         <MainNavBar />
         <MainJumbo />
-        <MainCarousel />
-        <HomeFAQ />
+        <Container>
+          <MainCarousel />
+          <HomeFAQ />
+        </Container>
       </div>
     </>
   )

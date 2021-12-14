@@ -1,10 +1,10 @@
 import { Component } from 'react'
-import { Container, Carousel, Col, Row, Image } from 'react-bootstrap'
+import { Carousel, Col, Row, Image } from 'react-bootstrap'
 
 class MainCarousel extends Component {
   render() {
     return (
-      <Container>
+      <>
         <Carousel>
           <Carousel.Item>
             <Row>
@@ -82,7 +82,7 @@ class MainCarousel extends Component {
             </Row>
           </Carousel.Item>
         </Carousel>
-      </Container>
+      </>
     )
   }
 }
