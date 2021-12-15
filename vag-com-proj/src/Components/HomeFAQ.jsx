@@ -56,8 +56,12 @@ class HomeFAQ extends Component {
             </Accordion>
           </Col>
           <Col sm={12} md={12} lg={5}>
-            <Row>
-              <Image src="holder.js/171x180" rounded />
+            <Row className="justify-content-center">
+              <Image
+                className="d-none d-lg-block"
+                src="../img/placeholders/faq (1).png"
+                rounded
+              />
             </Row>
             <Row></Row>
           </Col>
