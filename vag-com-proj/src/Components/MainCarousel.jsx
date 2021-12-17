@@ -6,9 +6,7 @@ class MainCarousel extends Component {
     return (
       <>
         {/* TRIPPLE IMAGE CAROUSEL */}
-        {/* className="d-none d-sm-none d-md-none d-lg-block" */}
         <Row className="justify-content-center">
-          {/* <Col> */}
           <Carousel className="d-none d-sm-none d-md-none d-lg-block">
             <Carousel.Item>
               <Row>
@@ -87,39 +85,27 @@ class MainCarousel extends Component {
             </Carousel.Item>
           </Carousel>
 
-          {/* className="d-lg-none d-xl-none" */}
           {/* SINGLE IMAGE CAROUSEL */}
-
-          {/* <img
-            className="d-block w-100"
-            src="../img/placeholders/370x420_prod_1.jpg"
-            //alt="First slide"
-          /> */}
-          {/* <Col> */}
-            <Carousel fade className="d-lg-none d-xl-none">
-              <Carousel.Item>
-                <img
-                  className="d-block"
-                  src="../img/placeholders/370x420_prod_1.jpg"
-                  //alt="First slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block"
-                  src="../img/placeholders/370x420_prod_2.jpg"
-                  //alt="Second slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block"
-                  src="../img/placeholders/370x420_prod_3.jpg"
-                  //alt="Third slide"
-                />
-              </Carousel.Item>
-            </Carousel>
-          {/* </Col> */}
+          <Carousel fade className="d-lg-none d-xl-none text-center">
+            <Carousel.Item>
+              <img
+                src="../img/placeholders/370x420_prod_1.jpg"
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                src="../img/placeholders/370x420_prod_2.jpg"
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                src="../img/placeholders/370x420_prod_3.jpg"
+                alt="Third slide"
+              />
+            </Carousel.Item>
+          </Carousel>
         </Row>
       </>
     )
