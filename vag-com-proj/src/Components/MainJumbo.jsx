@@ -1,11 +1,12 @@
 import { Component } from 'react'
 import { Card, Container } from 'react-bootstrap'
+import MainCarousel from './MainCarousel'
 
 class MainJumbo extends Component {
   render() {
     return (
       <>
-        <Card>
+        <Card className="main-card">
           <div className="jambo-layout">
             <Card.Img
               className="img-jambo"
@@ -26,6 +27,9 @@ class MainJumbo extends Component {
             </Container>
           </Card.ImgOverlay>
         </Card>
+        <div className="main-carousel">
+          <MainCarousel />
+        </div>
       </>
     )
   }

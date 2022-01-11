@@ -1,6 +1,6 @@
 .img-carousel {
   width: 350px;
-  height: 350px;
+  height: 370px;
   object-fit: contain;
 }
 
@@ -8,4 +8,21 @@
   background-size: cover;
   background-repeat: no-repeat;
   filter: brightness(0.4);
+}
+
+.jumbo-card {
+  border: none !important;
+}
+
+.main-carousel {
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 25%;
+}
+
+.main-card {
+  position: relative;
+}
+.img-jumbo {
+  /* width: 100vw; */
 }
