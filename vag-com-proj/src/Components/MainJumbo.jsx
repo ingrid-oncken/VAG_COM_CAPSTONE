@@ -4,17 +4,29 @@ import { Card, Container } from 'react-bootstrap'
 class MainJumbo extends Component {
   render() {
     return (
-      <Card className="text-dark">
-        <Card.Img src="../img/placeholders/1920x700.jpg" alt="car image" />
-        <Card.ImgOverlay>
-          <Container>
-            <Card.Title>VAG-COM DIAGNOSTIC SYSTEM</Card.Title>
-            <Card.Text>
-              SISTEMA DE DIAGNÓSTICO PARA VOLKSWAGEN, AUDI, SEAT E SKODA
-            </Card.Text>
-          </Container>
-        </Card.ImgOverlay>
-      </Card>
+      <>
+        <Card>
+          <div className="jambo-layout">
+            <Card.Img
+              className="img-jambo"
+              src="../img/placeholders/vag_espanol.jpeg"
+              alt="car image"
+            />
+          </div>
+          <Card.ImgOverlay>
+            <Container className="">
+              <Card.Title>
+                <h1 className="text-white">VAG-COM DIAGNOSTIC SYSTEM</h1>
+              </Card.Title>
+              <Card.Text>
+                <h3 className="text-white">
+                  SISTEMA DE DIAGNÓSTICO PARA VOLKSWAGEN, AUDI, SEAT E SKODA
+                </h3>
+              </Card.Text>
+            </Container>
+          </Card.ImgOverlay>
+        </Card>
+      </>
     )
   }
 }
