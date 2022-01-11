@@ -16,20 +16,20 @@ class MainCarousel extends Component {
                 <Col xs={6} md={4}>
                   <Image
                     className="d-block w-100 img-carousel"
-                    src="../img/products/18013.jpeg"
+                    src="../img/products/p1.jpeg"
                     rounded
                   />
                 </Col>
                 <Col xs={6} md={4}>
                   <Image
-                    src="../img/products/18037.jpeg"
+                    src="../img/products/p2.jpeg"
                     rounded
                     className="d-block w-100 img-carousel"
                   />
                 </Col>
                 <Col xs={6} md={4}>
                   <Image
-                    src="../img/products/20827.png"
+                    src="../img/products/p3.jpeg"
                     rounded
                     className="d-block w-100 img-carousel"
                   />
@@ -41,7 +41,7 @@ class MainCarousel extends Component {
                 <Col xs={6} md={4}>
                   <Image
                     // src="/../img/products/HV2-big_ml.jpeg"
-                    src="../img/placeholders/370x420_prod_4.jpg"
+                    src="../img/products/p4.jpeg"
                     rounded
                     className="d-block w-100 img-carousel"
                   />
@@ -49,7 +49,7 @@ class MainCarousel extends Component {
                 <Col xs={6} md={4}>
                   <Image
                     // src="../img/products/hv2.jpeg"
-                    src="../img/placeholders/370x420_prod_4.jpg"
+                    src="../img/products/p5.jpeg"
                     rounded
                     className="d-block w-100 img-carousel"
                   />
@@ -57,7 +57,7 @@ class MainCarousel extends Component {
                 <Col xs={6} md={4}>
                   <Image
                     // src="../img/products/OBDEXT-1A.png"
-                    src="../img/placeholders/370x420_prod_4.jpg"
+                    src="../img/products/p6.jpg"
                     rounded
                     className="d-block w-100 img-carousel"
                   />
@@ -68,21 +68,21 @@ class MainCarousel extends Component {
               <Row>
                 <Col xs={6} md={4}>
                   <Image
-                    src="../img/products/USB2EXTCAB.jpeg"
+                    src="../img/products/p7.jpeg"
                     rounded
                     className="d-block w-100 img-carousel"
                   />
                 </Col>
                 <Col xs={6} md={4}>
                   <Image
-                    src="../img/products/usbc_b.jpeg"
+                    src="../img/products/p8.png"
                     rounded
                     className="d-block w-100 img-carousel"
                   />
                 </Col>
                 <Col xs={6} md={4}>
                   <Image
-                    src="../img/products/VAS-adapter.jpeg"
+                    src="../img/products/p9.jpeg"
                     rounded
                     className="d-block w-100 img-carousel"
                   />
