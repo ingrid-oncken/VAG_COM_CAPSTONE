@@ -1,5 +1,5 @@
 .img-carousel {
-  width: 350px;
+  width: 270px;
   height: 370px;
   object-fit: contain;
 }
@@ -16,11 +16,4 @@
 
 .main-carousel {
   margin-top: -10%;
-}
-
-.main-card {
-  position: relative;
-}
-.img-jumbo {
-  /* width: 100vw; */
 }
