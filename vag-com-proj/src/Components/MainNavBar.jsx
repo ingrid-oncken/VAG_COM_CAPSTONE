@@ -2,6 +2,7 @@ import { Component } from 'react'
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
 
+
 class MainNavBar extends Component {
   render() {
     return (

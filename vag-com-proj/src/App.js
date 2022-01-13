@@ -12,7 +12,7 @@ function App() {
       <div>
         <MainNavBar />
         <MainJumbo />
-        <Container>
+        <Container className="mt-5">
           <HomeFAQ />
         </Container>
       </div>

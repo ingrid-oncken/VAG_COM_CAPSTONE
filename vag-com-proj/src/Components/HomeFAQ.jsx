@@ -1,25 +1,32 @@
 import { Component } from 'react'
-import { Accordion, Row, Col, Image } from 'react-bootstrap'
-//import { useAccordionToggle } from 'react-bootstrap/AccordionToggle'
+import { Accordion, Card, Row, Col, Image } from 'react-bootstrap'
+import { FaAngleDown } from 'react-icons/fa'
 
 class HomeFAQ extends Component {
   render() {
     return (
       <>
-        <h1>ACCORDION HERE</h1>
+        <h1>Perguntas Frequentes</h1>
+
         <Row>
           <Col sm={12} md={12} lg={7}>
             <Accordion>
-              <Accordion.Item eventKey="0">
+              <Accordion.Item eventKey="0" className="acordion-question">
                 <Accordion.Header>
+                  <span>
+                    <FaAngleDown />
+                  </span>
                   Quais são as Funções da Versão atual do VCDS?
                 </Accordion.Header>
                 <Accordion.Body>
                   Veja a **Lista de Funções** da versão atual.
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="1">
+              <Accordion.Item eventKey="1" className="acordion-question">
                 <Accordion.Header>
+                  <span>
+                    <FaAngleDown />
+                  </span>
                   O VCDS é compatível com a Unidade de Comando do Motor com
                   Chip"?
                 </Accordion.Header>
@@ -29,23 +36,34 @@ class HomeFAQ extends Component {
                   compatível.
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="2">
-                <Accordion.Header>Há uma versão em Português?</Accordion.Header>
+              <Accordion.Item eventKey="2" className="acordion-question">
+                <Accordion.Header>
+                  <span>
+                    <FaAngleDown />
+                  </span>
+                  Há uma versão em Português?
+                </Accordion.Header>
                 <Accordion.Body>
                   Sim há, temos uma versão em português incluindo com todos os
                   28.976 códigos de avaria.
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="3">
+              <Accordion.Item eventKey="3" className="acordion-question">
                 <Accordion.Header>
+                  <span>
+                    <FaAngleDown />
+                  </span>
                   É possível utilizar o VCDS um computador desktop?
                 </Accordion.Header>
                 <Accordion.Body>
                   Sim, para este caso recomendamos a interface sem fio HEX-NET.
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="4">
+              <Accordion.Item eventKey="4" className="acordion-question">
                 <Accordion.Header>
+                  <span>
+                    <FaAngleDown />
+                  </span>
                   Há uma versão para Mac(iOS) ou Linux?
                 </Accordion.Header>
                 <Accordion.Body>
