@@ -18,6 +18,8 @@
   margin-top: -10%;
 }
 
-.acordion-question{
-  
+.accordion-button {
+  background-color: transparent;
+  border: none;
+  font-size: smaller;
 }
