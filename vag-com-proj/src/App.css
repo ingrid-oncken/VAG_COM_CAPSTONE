@@ -22,4 +22,10 @@
   background-color: transparent;
   border: none;
   font-size: smaller;
+  text-align: left;
+  display: flex;
+}
+
+.accordion-body {
+  display: flex;
 }
