@@ -1,12 +1,12 @@
 import { Component } from 'react'
-import { Accordion, Card, Row, Col, Image } from 'react-bootstrap'
-import { FaAngleDown, FaAngleUp } from 'react-icons/fa'
+import { Accordion, Row, Col, Image } from 'react-bootstrap'
+import { FaAngleDown } from 'react-icons/fa'
 
 class HomeFAQ extends Component {
   render() {
     return (
       <>
-        <h1>Perguntas Frequentes</h1>
+        <h1 className="text-dark">Perguntas Frequentes</h1>
 
         <Row>
           <Col sm={12} md={12} lg={7}>
