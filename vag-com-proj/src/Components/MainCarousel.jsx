@@ -5,7 +5,11 @@ class MainCarousel extends Component {
   render() {
     return (
       <>
-        <Carousel controls={false} indicators={false}>
+        <Carousel
+          className="d-none d-lg-block"
+          controls={false}
+          indicators={false}
+        >
           <Carousel.Item>
             <Row>
               <Col>
@@ -76,30 +80,28 @@ class MainCarousel extends Component {
             </Row>
           </Carousel.Item>
         </Carousel>
-        
 
-          {/* SINGLE IMAGE CAROUSEL */}
-          {/* <Carousel fade className="d-lg-none d-xl-none text-center">
-            <Carousel.Item>
-              <img
-                src="../img/placeholders/370x420_prod_1.jpg"
-                alt="First slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                src="../img/placeholders/370x420_prod_2.jpg"
-                alt="Second slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                src="../img/placeholders/370x420_prod_3.jpg"
-                alt="Third slide"
-              />
-            </Carousel.Item>
-          </Carousel>
-        </Row> */}
+        {/* SINGLE IMAGE CAROUSEL */}
+        <Carousel fade className="d-lg-none d-xl-none text-center">
+          <Carousel.Item>
+            <img
+              src="../img/placeholders/370x420_prod_1.jpg"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              src="../img/placeholders/370x420_prod_2.jpg"
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              src="../img/placeholders/370x420_prod_3.jpg"
+              alt="Third slide"
+            />
+          </Carousel.Item>
+        </Carousel>
       </>
     )
   }

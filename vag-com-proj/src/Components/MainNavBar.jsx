@@ -2,11 +2,10 @@ import { Component } from 'react'
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
 
-
 class MainNavBar extends Component {
   render() {
     return (
-      <Navbar bg="light" expand="lg" sticky="top">
+      <Navbar expand="lg" sticky="top">
         <Container>
           <Navbar.Brand href="#home">
             <img

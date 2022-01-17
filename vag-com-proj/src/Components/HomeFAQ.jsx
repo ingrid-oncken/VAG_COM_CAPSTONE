@@ -1,13 +1,24 @@
 import { Component } from 'react'
-import { Accordion, Row, Col, Image } from 'react-bootstrap'
+import { Alert, Accordion, Row, Card, Col, Image } from 'react-bootstrap'
 import { FaAngleDown } from 'react-icons/fa'
 
 class HomeFAQ extends Component {
   render() {
     return (
       <>
-        <h1 className="text-dark">Perguntas Frequentes</h1>
+        <Card className="text-center" variant="secondary">
+          <Card.Header>
+            <Card.Title>
+              <h1>VAG-COM DIAGNOSTIC SYSTEM</h1>
+            </Card.Title>
+          </Card.Header>
 
+          <Card.Body>
+            SISTEMA DE DIAGNÓSTICO PARA VOLKSWAGEN, AUDI, SEAT E SKODA
+          </Card.Body>
+        </Card>
+
+        <h3 className="text-dark mt-5">Perguntas Frequentes</h3>
         <Row>
           <Col sm={12} md={12} lg={7}>
             <Accordion>
