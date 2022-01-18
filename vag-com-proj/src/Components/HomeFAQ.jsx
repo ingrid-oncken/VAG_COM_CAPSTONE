@@ -6,7 +6,7 @@ class HomeFAQ extends Component {
   render() {
     return (
       <>
-        <Card className="text-center" variant="secondary">
+        <Card className="text-center title-card" variant="secondary">
           <Card.Header>
             <Card.Title>
               <h1>VAG-COM DIAGNOSTIC SYSTEM</h1>

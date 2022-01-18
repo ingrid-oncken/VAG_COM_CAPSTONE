@@ -1,6 +1,7 @@
 import MainNavBar from './Components/MainNavBar'
 import MainJumbo from './Components/MainJumbo'
 import MainForm from './Components/MainForm'
+import Store from './Components/Store'
 
 import HomeFAQ from './Components/HomeFAQ'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -13,11 +14,12 @@ function App() {
     <>
       <div>
         <MainNavBar />
-        <MainJumbo />
+        {/* <MainJumbo />
         <Container className="mt-3">
           <HomeFAQ />
           <MainForm />
-        </Container>
+        </Container> */}
+        <Store />
         <Footer />
       </div>
     </>
