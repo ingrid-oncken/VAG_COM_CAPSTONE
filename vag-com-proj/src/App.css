@@ -1,13 +1,23 @@
+#jambo-img {
+  background-image: url('https://www.vag-com-portugues.com/R8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: 10vh;
+  height: 50vh;
+  position: relative;
+  width: 100%;
+  background-size: contain;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+
 .img-carousel {
   width: 270px;
   height: 370px;
   object-fit: contain;
-}
-
-.jambo-layout {
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: brightness(0.4);
 }
 
 .jumbo-card {
@@ -40,10 +50,6 @@
 .card-header.bg-primary,
 .btn-primary {
   opacity: 0.8;
-}
-
-.navbar {
-  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .title-card {

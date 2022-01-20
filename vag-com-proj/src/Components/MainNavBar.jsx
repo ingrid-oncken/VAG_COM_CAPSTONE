@@ -5,11 +5,11 @@ import { AiOutlineShoppingCart } from 'react-icons/ai'
 class MainNavBar extends Component {
   render() {
     return (
-      <Navbar expand="lg" sticky="top">
+      <Navbar expand="lg" bg="light" sticky="top">
         <Container>
           <Navbar.Brand href="#home">
             <img
-              src="http://www.vag-com-portugues.com/VCDS_logo.bmp"
+              src="../img/vag-com_logo_BG.png"
               height="80"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
@@ -20,7 +20,7 @@ class MainNavBar extends Component {
             <Nav className="ml-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#link">Funções</Nav.Link>
-              <Nav.Link href="#link">Simulador Virtual</Nav.Link>
+              {/* <Nav.Link href="#link">Simulador Virtual</Nav.Link> */}
               <Nav.Link href="#link">Registro</Nav.Link>
               <Nav.Link href="#link">Downloads</Nav.Link>
               <Nav.Link href="#link">Interfaces</Nav.Link>
