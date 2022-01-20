@@ -14,17 +14,17 @@ class MainCarousel extends Component {
             <Row>
               <Col className="d-flex justify-content-center">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src="../img/products/p1.jpeg" />
+                  <Card.Img variant="top" src="./assets/img/products/p1.jpeg" />
                 </Card>
               </Col>
               <Col className="d-flex justify-content-center">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src="../img/products/p2.jpeg" />
+                  <Card.Img variant="top" src="./assets/img/products/p2.jpeg" />
                 </Card>
               </Col>
               <Col className="d-flex justify-content-center">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src="../img/products/p3.jpeg" />
+                  <Card.Img variant="top" src="./assets/img/products/p3.jpeg" />
                 </Card>
               </Col>
             </Row>
@@ -33,12 +33,12 @@ class MainCarousel extends Component {
             <Row>
               <Col className="d-flex justify-content-center">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src="../img/products/p4.jpeg" />
+                  <Card.Img variant="top" src="./assets/img/products/p4.jpeg" />
                 </Card>
               </Col>
               <Col className="d-flex justify-content-center">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src="../img/products/p5.jpeg" />
+                  <Card.Img variant="top" src="./assets/img/products/p5.jpeg" />
                 </Card>
               </Col>
               <Col className="d-flex justify-content-center">
@@ -46,7 +46,7 @@ class MainCarousel extends Component {
                   <Card.Img
                     className="img-carousel"
                     variant="top"
-                    src="../img/products/p6.jpg"
+                    src="../../.."
                   />
                 </Card>
               </Col>

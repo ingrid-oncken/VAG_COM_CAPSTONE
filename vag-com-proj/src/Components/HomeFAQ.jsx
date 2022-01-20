@@ -6,19 +6,10 @@ class HomeFAQ extends Component {
   render() {
     return (
       <>
-        <Card className="text-center title-card" variant="secondary">
-          <Card.Header>
-            <Card.Title>
-              <h1>VAG-COM DIAGNOSTIC SYSTEM</h1>
-            </Card.Title>
-          </Card.Header>
-
-          <Card.Body>
-            SISTEMA DE DIAGNÓSTICO PARA VOLKSWAGEN, AUDI, SEAT E SKODA
-          </Card.Body>
-        </Card>
-
-        <h3 className="text-dark mt-5">Perguntas Frequentes</h3>
+        <span className="blue-title my-2">
+          <h5 className="font-weight-lighter">Tem Dúvidas?</h5>
+        </span>
+        <h3 className="text-body gray-title mb-5">Perguntas Frequentes</h3>
         <Row>
           <Col sm={12} md={12} lg={7}>
             <Accordion>
@@ -34,7 +25,7 @@ class HomeFAQ extends Component {
                   <p>Veja a **Lista de Funções** da versão atual.</p>
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="1" className="acordion-question">
+              <Accordion.Item eventKey="1" className="acordion-question mb-3">
                 <Accordion.Header>
                   <span>
                     <FaAngleDown />
@@ -51,7 +42,7 @@ class HomeFAQ extends Component {
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="2" className="acordion-question">
+              <Accordion.Item eventKey="2" className="acordion-question mb-3">
                 <Accordion.Header>
                   <span>
                     <FaAngleDown />
@@ -66,7 +57,7 @@ class HomeFAQ extends Component {
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="3" className="acordion-question">
+              <Accordion.Item eventKey="3" className="acordion-question mb-3">
                 <Accordion.Header>
                   <span>
                     <FaAngleDown />
@@ -81,7 +72,7 @@ class HomeFAQ extends Component {
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="4" className="acordion-question">
+              <Accordion.Item eventKey="4" className="acordion-question mb-3">
                 <Accordion.Header>
                   <span>
                     <FaAngleDown />

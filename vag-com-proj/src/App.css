@@ -1,5 +1,11 @@
+body {
+  font-family: 'Roboto', sans-serif !important;
+  color: #777777;
+  font-weight: 400;
+}
+
 #jambo-img {
-  background-image: url('https://www.vag-com-portugues.com/R8.jpg');
+  background-image: url('./assets/img/vag_espanol.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -23,6 +29,7 @@
 
 .jumbo-card {
   border: 2px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0;
 }
 
 .main-carousel {
@@ -32,9 +39,10 @@
 .accordion-button {
   background-color: transparent;
   border: none;
-  font-size: smaller;
+  font-size: x-large;
   text-align: left;
   display: flex;
+  color: #495057;
 }
 
 .accordion-body {
@@ -55,4 +63,12 @@
 
 .title-card {
   border: none;
+}
+
+.blue-title {
+  color: #0146a0;
+}
+
+.gray-title {
+  font-family: 'Rubik', sans-serif;
 }
