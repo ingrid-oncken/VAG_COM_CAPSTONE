@@ -14,10 +14,10 @@ function App() {
       <div>
         <MainNavBar />
         <MainJumbo />
-        <Container className="mt-5">
-          <HomeFAQ />
-          <MainForm />
-        </Container> 
+
+        <HomeFAQ />
+        <MainForm />
+
         {/* <Store /> */}
         <Footer />
       </div>
