@@ -14,7 +14,7 @@ function App() {
       <div>
         <MainNavBar />
         <MainJumbo />
-        <Container className="mt-3">
+        <Container className="mt-5">
           <HomeFAQ />
           <MainForm />
         </Container> 

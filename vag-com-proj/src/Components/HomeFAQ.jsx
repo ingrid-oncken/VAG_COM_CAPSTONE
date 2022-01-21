@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { Alert, Accordion, Row, Card, Col, Image } from 'react-bootstrap'
+import { Button, Accordion, Row, Card, Col, Image } from 'react-bootstrap'
 import { FaAngleDown } from 'react-icons/fa'
 
 class HomeFAQ extends Component {
@@ -7,86 +7,65 @@ class HomeFAQ extends Component {
     return (
       <>
         <span className="blue-title my-2">
-          <h5 className="font-weight-lighter">Tem Dúvidas?</h5>
+          <h5 className="font-italic">Tem Dúvidas?</h5>
         </span>
-        <h3 className="text-body gray-title mb-5">Perguntas Frequentes</h3>
+        <h3 className="text-body gray-title mb-4">Perguntas Frequentes</h3>
         <Row>
           <Col sm={12} md={12} lg={7}>
-            <Accordion>
-              <Accordion.Item eventKey="0" className="acordion-question">
-                <Accordion.Header>
-                  <span>
-                    <FaAngleDown />
-                  </span>
-                  <p>Quais são as Funções da Versão atual do VCDS?</p>
-                </Accordion.Header>
-                <Accordion.Body>
-                  <span className="ml-5"></span>
-                  <p>Veja a **Lista de Funções** da versão atual.</p>
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="1" className="acordion-question mb-3">
-                <Accordion.Header>
-                  <span>
-                    <FaAngleDown />
-                  </span>
-                  O VCDS é compatível com a Unidade de Comando do Motor com
-                  Chip"?
-                </Accordion.Header>
-                <Accordion.Body>
-                  <span className="ml-5"></span>
-                  <p>
+            <Accordion eventKey="0">
+              <Card>
+                <Card.Header>
+                  <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                    Quais são as Funções da Versão atual do VCDS?
+                  </Accordion.Toggle>
+                </Card.Header>
+                <Accordion.Collapse eventKey="0">
+                  <Card.Body>
+                    Veja a **Lista de Funções** da versão atual.
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card>
+                <Card.Header>
+                  <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                    O VCDS é compatível com a Unidade de Comando do Motor com
+                    Chip"?
+                  </Accordion.Toggle>
+                </Card.Header>
+                <Accordion.Collapse eventKey="1">
+                  <Card.Body>
                     Sim, com a maioria dos chips de companhias com boa
                     reputação. No entanto, tem chips de duvidosa qualidade com
                     os quais não é compatível.
-                  </p>
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="2" className="acordion-question mb-3">
-                <Accordion.Header>
-                  <span>
-                    <FaAngleDown />
-                  </span>
-                  Há uma versão em Português?
-                </Accordion.Header>
-                <Accordion.Body>
-                  <span className="ml-5"></span>
-                  <p>
-                    Sim há, temos uma versão em português incluindo com todos os
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card>
+                <Card.Header>
+                  <Accordion.Toggle as={Button} variant="link" eventKey="2">
+                    Há uma versão em Português?
+                  </Accordion.Toggle>
+                </Card.Header>
+                <Accordion.Collapse eventKey="2">
+                  <Card.Body>
+                    Sim há, temos uma versão em português inclusive com todos os
                     28.976 códigos de avaria.
-                  </p>
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="3" className="acordion-question mb-3">
-                <Accordion.Header>
-                  <span>
-                    <FaAngleDown />
-                  </span>
-                  É possível utilizar o VCDS um computador desktop?
-                </Accordion.Header>
-                <Accordion.Body>
-                  <span className="ml-5"></span>
-                  <p>
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+              <Card>
+                <Card.Header>
+                  <Accordion.Toggle as={Button} variant="link" eventKey="3">
+                    É possível utilizar o VCDS em um computador desktop?
+                  </Accordion.Toggle>
+                </Card.Header>
+                <Accordion.Collapse eventKey="3">
+                  <Card.Body>
                     Sim, para este caso recomendamos a interface sem fio
                     HEX-NET.
-                  </p>
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="4" className="acordion-question mb-3">
-                <Accordion.Header>
-                  <span>
-                    <FaAngleDown />
-                  </span>
-                  <p>Há uma versão para Mac(iOS) ou Linux?</p>
-                </Accordion.Header>
-                <Accordion.Body>
-                  <span className="ml-5"></span>
-                  <p>
-                    Sim, porém em inglês, é possível utilizar a nova interface
-                    sem fio HEX-NET através do VCDS Mobile.
-                  </p>
-                </Accordion.Body>
-              </Accordion.Item>
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
             </Accordion>
           </Col>
           <Col sm={12} md={12} lg={5}>
@@ -97,7 +76,7 @@ class HomeFAQ extends Component {
                 rounded
               />
             </Row>
-            <Row></Row>
+            {/* <Row></Row> */}
           </Col>
         </Row>
       </>

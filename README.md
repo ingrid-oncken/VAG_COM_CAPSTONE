@@ -1,1 +1,0 @@
-# VAG_COM_CAPSTONE

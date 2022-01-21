@@ -5,7 +5,7 @@ body {
 }
 
 #jambo-img {
-  background-image: url('./assets/img/vag_espanol.jpeg');
+  background-image: url('./assets/images/vag_espanol.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -14,7 +14,7 @@ body {
   position: relative;
   width: 100%;
   background-size: contain;
-  filter: brightness(0.8);
+  filter: brightness(0.5);
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,17 +36,19 @@ body {
   margin-top: -10%;
 }
 
-.accordion-button {
-  background-color: transparent;
-  border: none;
-  font-size: x-large;
-  text-align: left;
-  display: flex;
+.accordion .card {
+  border-radius: 0;
+}
+
+.accordion .btn-link {
+  text-decoration: none;
   color: #495057;
 }
 
-.accordion-body {
-  display: flex;
+.accordion .btn-link:hover {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #0146a0;
 }
 
 .footer {
