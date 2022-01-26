@@ -15,18 +15,38 @@ body {
   width: 100%;
   background-size: contain;
   filter: brightness(0.5);
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
+}
+
+#tab-container .list-group-item.active {
+  background-color: #0146a0;
+  border-color: #0146a0;
+}
+
+
+
+.nav-active {
+  background-color: #0146a0;
+  color: #fff !important;
+  font-weight: bolder;
 }
 
 .form-section {
   background-color: #f5f5f5;
 }
 
-.form-section .card-header{
-background-color: #0146a0
+.form-section .card-header {
+  background-color: #0146a0;
+}
+
+.form-section .btn-primary {
+  background-color: #0146a0;
+  border-color: #0146a0;
+}
+
+.form-section .btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
 }
 
 .img-carousel {

@@ -1,26 +1,23 @@
 import MainNavBar from './Components/MainNavBar'
 import MainJumbo from './Components/MainJumbo'
-import MainForm from './Components/MainForm'
+import Footer from './Components/Footer'
+import Store from './Components/Store'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import HomeFAQ from './Components/HomeFAQ'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
-import { Container } from 'react-bootstrap'
-import Footer from './Components/Footer'
 
 function App() {
   return (
     <>
-      <div>
+      <BrowserRouter>
         <MainNavBar />
-        <MainJumbo />
-
-        <HomeFAQ />
-        <MainForm />
-
-        {/* <Store /> */}
+        <Routes>
+          <Route path="/" exact element={<MainJumbo />} />
+          <Route path="/store" element={<Store />} />
+        </Routes>
         <Footer />
-      </div>
+      </BrowserRouter>
     </>
   )
 }

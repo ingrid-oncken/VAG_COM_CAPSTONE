@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { Carousel, Card, Row, Image, Col } from 'react-bootstrap'
+import { Carousel, Card, Row, Col } from 'react-bootstrap'
 
 class MainCarousel extends Component {
   render() {
@@ -12,17 +12,17 @@ class MainCarousel extends Component {
         >
           <Carousel.Item>
             <Row>
-              <Col className="d-flex justify-content-center">
+              <Col className="d-flex">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
                   <Card.Img variant="top" src="../img/products/p1.jpeg" />
                 </Card>
               </Col>
-              <Col className="d-flex justify-content-center">
+              <Col className="d-flex">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
                   <Card.Img variant="top" src="../img/products/p2.jpeg" />
                 </Card>
               </Col>
-              <Col className="d-flex justify-content-center">
+              <Col className="d-flex">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
                   <Card.Img variant="top" src="../img/products/p3.jpeg" />
                 </Card>
@@ -31,17 +31,17 @@ class MainCarousel extends Component {
           </Carousel.Item>
           <Carousel.Item>
             <Row>
-              <Col className="d-flex justify-content-center">
+              <Col className="d-flex">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
                   <Card.Img variant="top" src="../img/products/p4.jpeg" />
                 </Card>
               </Col>
-              <Col className="d-flex justify-content-center">
+              <Col className="d-flex">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
                   <Card.Img variant="top" src="../img/products/p5.jpeg" />
                 </Card>
               </Col>
-              <Col className="d-flex justify-content-center">
+              <Col className="d-flex">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
                   <Card.Img
                     className="img-carousel"
@@ -54,12 +54,12 @@ class MainCarousel extends Component {
           </Carousel.Item>
           <Carousel.Item>
             <Row>
-              <Col className="d-flex justify-content-center">
+              <Col className="d-flex ">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
                   <Card.Img variant="top" src="../img/products/p7.jpeg" />
                 </Card>
               </Col>
-              <Col className="d-flex justify-content-center">
+              <Col className="d-flex ">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
                   <Card.Img
                     className="img-carousel"
@@ -68,7 +68,7 @@ class MainCarousel extends Component {
                   />
                 </Card>
               </Col>
-              <Col className="d-flex justify-content-center">
+              <Col className="d-flex ">
                 <Card className="jumbo-card" style={{ width: '18rem' }}>
                   <Card.Img
                     className="img-carousel"

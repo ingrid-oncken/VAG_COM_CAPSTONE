@@ -8,7 +8,7 @@ import {
   Col,
   Image,
 } from 'react-bootstrap'
-import { FaAngleDown } from 'react-icons/fa'
+
 
 class HomeFAQ extends Component {
   render() {
@@ -16,7 +16,7 @@ class HomeFAQ extends Component {
       <>
         <Container className="mt-5">
           <span className="blue-title my-2">
-            <h5 className="font-italic">Tem Dúvidas?</h5>
+            <h5 className="font-italic">Dúvidas?</h5>
           </span>
           <h3 className="text-body gray-title mb-4">Perguntas Frequentes</h3>
           <Row>
