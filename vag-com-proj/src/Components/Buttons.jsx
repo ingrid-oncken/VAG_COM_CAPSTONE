@@ -90,7 +90,7 @@ class Buttons extends Component {
                     </Col>
                   </Tab.Pane>
                   <Tab.Pane eventKey="#link3">
-                    <Card>
+                    <Card className="rounded-0">
                       <Card.Header>VagTacho</Card.Header>
                       <Col md={4}>
                         <Card.Img src="../img/products/vag_tacho.jpeg" />
@@ -106,7 +106,7 @@ class Buttons extends Component {
                             transpondedores das chaves. Esta é a versão europeia
                             completa lançada em maio 2018
                           </Card.Text>
-                          <Button variant="primary">Loja</Button>
+                          <Button variant="primary" className="rounded-0">Loja</Button>
                         </Card.Body>
                       </Col>
                       <Card.Footer className="text-muted">
