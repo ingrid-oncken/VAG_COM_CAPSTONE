@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { Card, Form, Button, Row, Image, Container } from 'react-bootstrap'
+import { Form, Button } from 'react-bootstrap'
 
 class MainForm extends Component {
   render() {

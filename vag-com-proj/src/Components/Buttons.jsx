@@ -1,11 +1,21 @@
 import { Component } from 'react'
-import { Col, Container, ListGroup, Row, Tab } from 'react-bootstrap'
+import {
+  Button,
+  Card,
+  Col,
+  Container,
+  ListGroup,
+  Image,
+  Row,
+  Tab,
+} from 'react-bootstrap'
 import MainForm from './MainForm'
+import { FaAt, FaLaptop, FaKey } from 'react-icons/fa'
 
 class Buttons extends Component {
-  state = {
-    show: 'first',
-  }
+  // state = {
+  //   show: 'first',
+  // }
 
   render() {
     return (
@@ -21,9 +31,12 @@ class Buttons extends Component {
                     // onClick={() => this.setState({ show: 'first' })}
                   >
                     <div className="">
-                      <span className="">*** icon here ***</span>
+                      <span className="">
+                        <FaAt />
+                      </span>
                     </div>
-                    <h3>Modron Workshop</h3>
+                    <h3>Ainda tem dúvidas?</h3>
+                    <p>Escreva-nos uma mensagem.</p>
                   </ListGroup.Item>
                   <ListGroup.Item
                     href="#link2"
@@ -31,13 +44,12 @@ class Buttons extends Component {
                     // onClick={() => this.setState({ show: 'second' })}
                   >
                     <div className="">
-                      <span className="">*** icon here ***</span>
+                      <span className="">
+                        <FaLaptop />
+                      </span>
                     </div>
-                    <h3>Talented workers</h3>
-                    <p>
-                      Suus satis. Quod etiam optime. Vos ite post eum, fistulae,
-                      nunquam
-                    </p>
+                    <h3>Simulador Virtual</h3>
+                    <p>Simulação interativa com imagens reais.</p>
                   </ListGroup.Item>
                   <ListGroup.Item
                     href="#link3"
@@ -45,13 +57,12 @@ class Buttons extends Component {
                     // onClick={() => this.setState({ show: 'third' })}
                   >
                     <div className="">
-                      <span className="">*** icon here ***</span>
+                      <span className="">
+                        <FaKey />
+                      </span>
                     </div>
-                    <h3>Leading auto specialist</h3>
-                    <p>
-                      Suus satis. Quod etiam optime. Vos ite post eum, fistulae,
-                      nunquam
-                    </p>
+                    <h3>VagTacho</h3>
+                    <p>Sistema programador de chaves.</p>
                   </ListGroup.Item>
                 </ListGroup>
               </Col>
@@ -74,28 +85,34 @@ class Buttons extends Component {
                     <MainForm />
                   </Tab.Pane>
                   <Tab.Pane eventKey="#link2">
-                    <p>
-                      That god forbid, that made me first your slave, I should
-                      in thought control your times of pleasure, Or at your hand
-                      the account of hours to crave, Being your vassal, bound to
-                      stay your leisure! O! let me suffer, being at your beck,
-                      The imprison'd absence of your liberty; And patience, tame
-                      to sufferance, bide each check, Without accusing you of
-                      injury. Be where you list, your charter is so strong That
-                      you yourself may privilage your time
-                    </p>
+                    <Col md={11}>
+                      <Image src="../img/tela_principal_vcds.gif" thumbnail />
+                    </Col>
                   </Tab.Pane>
                   <Tab.Pane eventKey="#link3">
-                    <p>
-                      That god forbid, that made me first your slave, I should
-                      in thought control your times of pleasure, Or at your hand
-                      the account of hours to crave, Being your vassal, bound to
-                      stay your leisure! O! let me suffer, being at your beck,
-                      The imprison'd absence of your liberty; And patience, tame
-                      to sufferance, bide each check, Without accusing you of
-                      injury. Be where you list, your charter is so strong That
-                      you yourself may privilage your time
-                    </p>
+                    <Card>
+                      <Card.Header>VagTacho</Card.Header>
+                      <Col md={4}>
+                        <Card.Img src="../img/products/vag_tacho.jpeg" />
+                      </Col>
+                      <Col md={8}>
+                        <Card.Body>
+                          <Card.Title>
+                            Completo, incluindo programador de transponderes.
+                          </Card.Title>
+                          <Card.Text>
+                            VagTacho é um sistema para adaptar chaves, ler
+                            códigos secretos de imobilizadores e programar os
+                            transpondedores das chaves. Esta é a versão europeia
+                            completa lançada em maio 2018
+                          </Card.Text>
+                          <Button variant="primary">Loja</Button>
+                        </Card.Body>
+                      </Col>
+                      <Card.Footer className="text-muted">
+                        Acesse a loja maiores detalhes deste produto.
+                      </Card.Footer>
+                    </Card>
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
