@@ -30,8 +30,8 @@ class Buttons extends Component {
                     action
                     // onClick={() => this.setState({ show: 'first' })}
                   >
-                    <div className="">
-                      <span className="">
+                    <div className="icon-box">
+                      <span className="font-icon">
                         <FaAt />
                       </span>
                     </div>
@@ -44,7 +44,7 @@ class Buttons extends Component {
                     // onClick={() => this.setState({ show: 'second' })}
                   >
                     <div className="">
-                      <span className="">
+                      <span className="font-icon">
                         <FaLaptop />
                       </span>
                     </div>
@@ -57,7 +57,7 @@ class Buttons extends Component {
                     // onClick={() => this.setState({ show: 'third' })}
                   >
                     <div className="">
-                      <span className="">
+                      <span className="font-icon">
                         <FaKey />
                       </span>
                     </div>
@@ -93,8 +93,15 @@ class Buttons extends Component {
                     <Card className="rounded-0">
                       <Card.Header>VagTacho</Card.Header>
                       <Row>
-                        <Col md={4}>
-                          <Card.Img src="../img/products/vag_tacho.jpeg" />
+                        <Col
+                          md={4}
+                          className="align-self-center d-flex pl-4 pr-0 mb-5 pb-4"
+                        >
+                          <Card.Img
+                            className="rounded-0 img-thumbnail"
+                            src="../img/products/vag_tacho.jpeg"
+                            alt="vag tacho picture"
+                          />
                         </Col>
                         <Col md={8}>
                           <Card.Body>
@@ -106,6 +113,11 @@ class Buttons extends Component {
                               códigos secretos de imobilizadores e programar os
                               transpondedores das chaves. Esta é a versão
                               europeia completa lançada em maio 2018
+                              <hr />
+                              <small className="text-muted small d-block">
+                                Para maiores detalhes deste produto acesse nossa
+                                loja.
+                              </small>
                             </Card.Text>
                             <Button variant="primary" className="rounded-0">
                               Loja
@@ -113,9 +125,6 @@ class Buttons extends Component {
                           </Card.Body>
                         </Col>
                       </Row>
-                      <Card.Footer className="text-muted">
-                        Acesse a loja maiores detalhes deste produto.
-                      </Card.Footer>
                     </Card>
                   </Tab.Pane>
                 </Tab.Content>
