@@ -92,23 +92,27 @@ class Buttons extends Component {
                   <Tab.Pane eventKey="#link3">
                     <Card className="rounded-0">
                       <Card.Header>VagTacho</Card.Header>
-                      <Col md={4}>
-                        <Card.Img src="../img/products/vag_tacho.jpeg" />
-                      </Col>
-                      <Col md={8}>
-                        <Card.Body>
-                          <Card.Title>
-                            Completo, incluindo programador de transponderes.
-                          </Card.Title>
-                          <Card.Text>
-                            VagTacho é um sistema para adaptar chaves, ler
-                            códigos secretos de imobilizadores e programar os
-                            transpondedores das chaves. Esta é a versão europeia
-                            completa lançada em maio 2018
-                          </Card.Text>
-                          <Button variant="primary" className="rounded-0">Loja</Button>
-                        </Card.Body>
-                      </Col>
+                      <Row>
+                        <Col md={4}>
+                          <Card.Img src="../img/products/vag_tacho.jpeg" />
+                        </Col>
+                        <Col md={8}>
+                          <Card.Body>
+                            <Card.Title>
+                              Completo, incluindo programador de transponderes.
+                            </Card.Title>
+                            <Card.Text>
+                              VagTacho é um sistema para adaptar chaves, ler
+                              códigos secretos de imobilizadores e programar os
+                              transpondedores das chaves. Esta é a versão
+                              europeia completa lançada em maio 2018
+                            </Card.Text>
+                            <Button variant="primary" className="rounded-0">
+                              Loja
+                            </Button>
+                          </Card.Body>
+                        </Col>
+                      </Row>
                       <Card.Footer className="text-muted">
                         Acesse a loja maiores detalhes deste produto.
                       </Card.Footer>
