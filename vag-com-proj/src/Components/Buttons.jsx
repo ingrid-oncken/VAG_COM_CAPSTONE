@@ -28,41 +28,65 @@ class Buttons extends Component {
                   <ListGroup.Item
                     href="#link1"
                     action
+
                     // onClick={() => this.setState({ show: 'first' })}
                   >
-                    <div className="icon-box">
-                      <span className="font-icon">
-                        <FaAt />
-                      </span>
-                    </div>
-                    <h3>Ainda tem dúvidas?</h3>
-                    <p>Escreva-nos uma mensagem.</p>
+                    <Row>
+                      <Col sm={2}>
+                        <span className="font-icon">
+                          <FaAt />
+                        </span>
+                      </Col>
+                      <Col sm={10}>
+                        <div>
+                          <h3>Ainda tem dúvidas?</h3>
+                        </div>
+                        <div>
+                          <p>Escreva-nos uma mensagem.</p>
+                        </div>
+                      </Col>
+                    </Row>
                   </ListGroup.Item>
                   <ListGroup.Item
                     href="#link2"
                     action
                     // onClick={() => this.setState({ show: 'second' })}
                   >
-                    <div className="">
-                      <span className="font-icon">
-                        <FaLaptop />
-                      </span>
-                    </div>
-                    <h3>Simulador Virtual</h3>
-                    <p>Simulação interativa com imagens reais.</p>
+                    <Row>
+                      <Col sm={2}>
+                        <div className="font-icon">
+                          <FaLaptop />
+                        </div>
+                      </Col>
+                      <Col sm={10}>
+                        {' '}
+                        <div className="d-flex">
+                          <h3>Simulador Virtual</h3>
+                        </div>
+                        <p>Simulação interativa com imagens reais.</p>
+                      </Col>
+                    </Row>
                   </ListGroup.Item>
                   <ListGroup.Item
                     href="#link3"
                     action
                     // onClick={() => this.setState({ show: 'third' })}
                   >
-                    <div className="">
-                      <span className="font-icon">
-                        <FaKey />
-                      </span>
-                    </div>
-                    <h3>VagTacho</h3>
-                    <p>Sistema programador de chaves.</p>
+                    <Row>
+                      <Col sm={2}>
+                        <span className="font-icon">
+                          <FaKey />
+                        </span>
+                      </Col>
+                      <Col sm={10}>
+                        <div className="d-flex">
+                          <h3>VagTacho</h3>
+                        </div>
+                        <div>
+                          <p>Sistema programador de chaves.</p>
+                        </div>
+                      </Col>
+                    </Row>
                   </ListGroup.Item>
                 </ListGroup>
               </Col>
