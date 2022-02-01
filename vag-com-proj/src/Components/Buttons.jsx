@@ -32,12 +32,14 @@ class Buttons extends Component {
                     // onClick={() => this.setState({ show: 'first' })}
                   >
                     <Row>
-                      <Col sm={2}>
-                        <span className="font-icon">
-                          <FaAt />
-                        </span>
+                      <Col sm={2} className="align-self-center">
+                        <div className="d-none d-sm-none d-md-flex justify-content-end ">
+                          <span className="font-icon">
+                            <FaAt />
+                          </span>
+                        </div>
                       </Col>
-                      <Col sm={10}>
+                      <Col sm={10} className="mt-2">
                         <div>
                           <h3>Ainda tem dúvidas?</h3>
                         </div>
@@ -53,12 +55,14 @@ class Buttons extends Component {
                     // onClick={() => this.setState({ show: 'second' })}
                   >
                     <Row>
-                      <Col sm={2}>
-                        <div className="font-icon">
-                          <FaLaptop />
+                      <Col sm={2} className="align-self-center">
+                        <div className="d-none d-sm-none d-md-flex justify-content-end">
+                          <span className="font-icon">
+                            <FaLaptop />
+                          </span>
                         </div>
                       </Col>
-                      <Col sm={10}>
+                      <Col sm={10} className="mt-2">
                         {' '}
                         <div className="d-flex">
                           <h3>Simulador Virtual</h3>
@@ -73,12 +77,14 @@ class Buttons extends Component {
                     // onClick={() => this.setState({ show: 'third' })}
                   >
                     <Row>
-                      <Col sm={2}>
-                        <span className="font-icon">
-                          <FaKey />
-                        </span>
+                      <Col sm={2} className="align-self-center">
+                        <div className="d-none d-sm-none d-md-flex justify-content-end">
+                          <span className="font-icon">
+                            <FaKey />
+                          </span>
+                        </div>
                       </Col>
-                      <Col sm={10}>
+                      <Col sm={10} className="mt-2">
                         <div className="d-flex">
                           <h3>VagTacho</h3>
                         </div>
