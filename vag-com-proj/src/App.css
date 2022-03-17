@@ -14,7 +14,7 @@ body {
   position: relative;
   width: 100%;
   background-size: contain;
-  filter: brightness(0.5);
+  filter: brightness(0.8);
 }
 
 #tab-container .list-group-item.active {

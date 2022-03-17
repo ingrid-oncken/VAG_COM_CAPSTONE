@@ -56,10 +56,3 @@ class MainNavBar extends Component {
 
 export default MainNavBar
 
-//{/* <Nav.Link href="#link">Simulador Virtual</Nav.Link> */}
-
-// {
-//   /* <Link to="/roberta">
-//                 <div className="nav-link">Roberta!</div>
-//               </Link> */
-// }
